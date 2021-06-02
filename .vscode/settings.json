@@ -3,21 +3,6 @@
   "prettier.eslintIntegration": true,
   "editor.formatOnSave": true,
   "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
-  "eslint.autoFixOnSave": true,
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "html",
-    "vue",
-    {
-      "language": "typescript",
-      "autoFix": true
-    },
-    {
-      "language": "typescriptreact",
-      "autoFix": true
-    }
-  ],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   }
