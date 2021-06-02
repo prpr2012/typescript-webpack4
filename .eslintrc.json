@@ -4,17 +4,16 @@
     "commonjs": true,
     "es6": true
   },
-  "extends": ["plugin:react/recommended", "prettier"],
+  "extends": ["prettier"],
   "parser": "babel-eslint",
   "parserOptions": {
     "sourceType": "module",
     "ecmaFeatures": {
-      "jsx": true,
       "arrowFunctions": true
     },
     "ecmaVersion": 2018
   },
-  "plugins": ["react", "prettier"],
+  "plugins": ["prettier"],
   "rules": {
     "linebreak-style": ["error", "windows"],
     "quotes": ["error", "single"],
