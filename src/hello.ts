@@ -2,5 +2,5 @@
 export default function hello(): void {
   let mytxt: string = 'Hello TypeScript';
   console.log(mytxt);
-  console.log(99)
+  console.log(100)
 }
