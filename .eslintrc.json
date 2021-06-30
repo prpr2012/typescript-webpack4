@@ -2,9 +2,10 @@
   "env": {
     "browser": true,
     "commonjs": true,
-    "es6": true
+    "es6": true,
+    "node":true
   },
-  "extends": ["prettier"],
+  "extends": ["prettier", "eslint:recommended"],
   "parser": "babel-eslint",
   "parserOptions": {
     "sourceType": "module",
@@ -15,7 +16,6 @@
   },
   "plugins": ["prettier"],
   "rules": {
-    "linebreak-style": ["error", "windows"],
     "quotes": ["error", "single"],
     "semi": ["error", "always"],
     "arrow-body-style": ["error", "always"],
