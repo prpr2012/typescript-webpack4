@@ -1,20 +1,13 @@
 {
-  "workbench.editor.enablePreview": true,
-  "editor.fontSize": 20,
-  "editor.tabSize": 2,
-  "editor.codeActionsOnSave": {
-    "source.fixAll": true
-  },
-  "editor.formatOnSave": false,
-  "eslint.options": {
-    "extensions": [".js", ".ts", ".tsx"]
-  },
-  "eslint.validate": ["javascript", "typescript", "typescriptreact"],
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "launch": {
-    "configurations": [],
-    "compounds": []
-  }
+    "workbench.editor.enablePreview": true,
+    "editor.fontSize": 20,
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    }
 }

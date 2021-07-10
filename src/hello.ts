@@ -1,6 +1,16 @@
-//提交代码
-export default function hello(): void {
-  let mytxt: string = "Hello TypeScript";
-  console.log(mytxt);
-  console.log(555)
+import { List } from './types';
+type Add = (x: number) => number;
+interface Result {
+    data: List[];
 }
+const test: Add = (a: number) => a;
+
+function apple(x: number) {
+    return test(x);
+}
+
+//提交代码
+function render(result: Result) {
+    console.log(result);
+}
+export { render, apple };

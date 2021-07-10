@@ -1,41 +1,44 @@
 {
-  "name": "tyscript_study2",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "webpack-dev-server --mode=development --config ./build/webpack.config.js",
-    "build": "webpack --mode=production --config ./build/webpack.config.js",
-    "format": "pretty-quick --staged && npm run lint ",
-    "test": "jest"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run fix"
+    "name": "tyscript_study2",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack-dev-server --mode=development --config ./build/webpack.config.js",
+        "build": "webpack --mode=production --config ./build/webpack.config.js",
+        "format": "pretty-quick --staged && npm run lint ",
+        "test": "jest"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "npm run fix"
+        }
+    },
+    "author": "pr",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.14.6",
+        "@babel/preset-env": "^7.14.7",
+        "babel-eslint": "10.0.3",
+        "babel-loader": "^8.2.2",
+        "babel-plugin-transform-flow-comments": "^6.22.0",
+        "babel-plugin-transform-runtime": "^6.23.0",
+        "eslint": "^6.2.2",
+        "eslint-config-airbnb": "^18.0.1",
+        "eslint-config-prettier": "^6.3.0",
+        "eslint-plugin-prettier": "^3.1.0",
+        "eslint-plugin-typescript": "^0.14.0",
+        "husky": "^3.1.0",
+        "prettier": "^2.3.0",
+        "ts-loader": "^9.2.3",
+        "typescript": "~4.3.2",
+        "webpack": "^4.32.2",
+        "webpack-cli": "^3.3.2",
+        "webpack-dev-server": "^3.5.1",
+        "webpack-merge": "^4.2.1"
+    },
+    "dependencies": {
+        "clean-webpack-plugin": "^3.0.0",
+        "html-webpack-plugin": "^3.2.0"
     }
-  },
-  "author": "pr",
-  "license": "ISC",
-  "devDependencies": {
-    "babel": "^6.23.0",
-    "babel-eslint": "10.0.3",
-    "babel-loader": "^8.2.2",
-    "babel-plugin-transform-flow-comments": "^6.22.0",
-    "eslint": "^6.2.2",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-prettier": "^6.3.0",
-    "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-typescript": "^0.14.0",
-    "husky": "^3.1.0",
-    "prettier": "^2.3.0",
-    "typescript": "^3.7.5",
-    "webpack": "^4.32.2",
-    "webpack-cli": "^3.3.2",
-    "webpack-dev-server": "^3.5.1",
-    "webpack-merge": "^4.2.1"
-  },
-  "dependencies": {
-    "clean-webpack-plugin": "^3.0.0",
-    "html-webpack-plugin": "^3.2.0"
-  }
 }
